@@ -1,0 +1,21 @@
+<html>
+  <head>
+    <title>家の名前</title>
+    <meta charset="UTF-8" />
+    <meta name="description" content="家の説明" />
+  </head>
+  <body>
+    <div style="display: flex; width: 100%; height: 500px;">
+      <div style="background-color: red; width: 30%; height: 30%;">家の間取りa</div>
+      <div style="background-color: green; width: 70%; height: 80%;">家の間取りb</div>
+    </div>
+  </body>
+</html>
+
+
+<!-- display flex→要素を横にする  -->
+<!--widthが横幅、height（ハイト）が縦の長さ  -->
+<!--横幅は30％と70％で丁度100％、縦の長さは500pxの30％を赤が使い、500pxの80％を緑が使っている-->
+<!--HTML/CSSはプログラミング言語ではないけど、コードを書くという事で重要な事は、「この値をこう変えたらどうなるのか」「この値をこうやって変えたらどうなるか」と値を実際に変えて、それによってどういった変化が起こるのかを自分の目で確認する事が大事！！  -->
+<!--基本的には横幅も縦の長さも100％に納めておく（特にwidth）。理由は100％から超えてしまうと、ホームページのレイアウトが崩れてしまう可能性があるから。縦も横も100％以内で抑えておく事が大事。子要素に関しては特に気を付けること -->
+<!--これでレイアウトの基本は完了。次はホームページっぽくレイアウトしてみよう！  -->
