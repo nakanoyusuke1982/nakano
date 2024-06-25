@@ -1,0 +1,26 @@
+<html>
+<head>
+  <title>家の名前</title>
+  <meta charset="UTF-8" />
+  <meta name="description content"="家の説明" />
+</head>
+
+<body>
+  <div style="width: 100%; height: 500px;">
+    <div style="background-color: red; width: 100%; height: 10%;">ヘッダー</div>
+     <div style="display:flex; width: 100%; height: 100%;">
+      <div style="background-color: pink; width: 20%; height: 80%;">メニュー</div>
+      <div style="background-color: yellow; width: 80%; height: 100%;">コンテンツ</div>
+     </div>
+    <div style="background-color: green; width: 100%; height: 10%;">フッター</d>
+  </div>
+</body>
+</html>
+
+<!--bodyタグの中を確認していこう！  -->
+<!--大枠に親要素のdivタグが1つあって（9行目）横幅が100％と縦の長さが500px  -->
+<!--その中に子要素のdivタグが3つあって、一番上がヘッダー、真ん中のメイン部分、一番下のフッターに別れている-->
+<!--ヘッダー、メイン、フッターの縦の長さの割がどうなっているかというと、10％、80％、10％で合計100％になっている。つまり、この大枠の500pxを「1：8：1」の割合で高さを分割しているのが、3つ子要素になる  -->
+<!--横幅については、全て100％になっている。つまり、この大枠の100％の中に全て収まるようになっている  -->
+<!--上記のパーセンテージやピクセルを自分なり変えてみてほしい。どう変化するかを自分の目で確認するのが一番理解できるから。コード書いた結果、どういった挙動になるのかを確認していこう！  -->
+<!--ここまでできれば、もう簡単なホームページなら作れるようになってくるんです！  -->
