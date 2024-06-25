@@ -1,0 +1,14 @@
+<html>
+ <head>
+  <title>家の名前</title>
+  <meta charset="UTF-8" />
+  <meta name="description" content="家の説明" />
+ </head>
+<body>
+  <div style="background-color: red">
+   家の間取りa
+   <div style="background-color: green">家の間取りb</div>   
+   <div>家の間取りc</div>
+  </div> 
+ </body>
+</html>
