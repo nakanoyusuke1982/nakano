@@ -1,0 +1,27 @@
+<html>
+<head>
+  <title>家の名前</title>
+  <meta charset="UTF-8" />
+  <meta name="description" content="家の説明" />
+</head>
+<body>
+  <div style="background-color: red;">
+    <div style="background-color: green;">
+      1行目
+     <div>
+        2行目
+        <div>
+          3行目
+        </div>
+      </div>
+      <div style="background-color: blue;">
+      4行目
+      </div>   
+    </div>
+    <div>
+      5行目
+    </div>
+  </div>
+  
+</body>
+</html>
