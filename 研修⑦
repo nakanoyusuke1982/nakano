@@ -1,0 +1,18 @@
+HTML
+<p>中野のプログラミング研修</p>
+<p style="color:blue;">中野裕介</p>
+
+<p>在宅ワーク大歓迎！</p>
+
+CSS
+p{
+  color: green;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+
+/*「pタグ」という文章を入れる為の宣言*/
+/* CSS=装飾をする。文字の色、サイズ、太さをCSSで調整する */
+/* 文字の色を変えたいだけなら、HTMLでやってもＯＫ */
+/* CSSに一度、「タグ」を作ってしまえば、使いまわす事ができる */
